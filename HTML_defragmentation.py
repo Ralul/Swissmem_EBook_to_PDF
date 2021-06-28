@@ -6,6 +6,11 @@ line = fh.read()
 
 line = line.replace("localhost", "localhost:7211")
 
+
+line = line.replace("Ã¶", "ö")
+line = line.replace("􀀀", "ü")
+
+
 save_path = 'Temp'
 name_of_file = "HTML_defragmentation.html"
 
