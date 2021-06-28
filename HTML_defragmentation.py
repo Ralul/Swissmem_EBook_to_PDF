@@ -1,19 +1,13 @@
-import os.path
+file = open("HTML_Download.HTML")
 
-fh = open("temp/" + "HTML_Download.HTML")
 
-line = fh.read()
+line = file.read().replace("localhost", "localhost:7211")
 
-line = line.replace("localhost", "localhost:7211")
 
-save_path = 'Temp'
-name_of_file = "HTML_defragmentation.html"
+print(line)
 
-completeName = os.path.join(save_path, name_of_file)
+with open('HTML_def.html', 'w') as file:
+    file.write(line)
 
-file1 = open(completeName, "w")
-
-file1.write(line)
-file1.close()
 
 

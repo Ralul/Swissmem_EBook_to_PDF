@@ -1,20 +1,11 @@
-import urllib.request, urllib.error, urllib.parse, os.path
+import urllib.request, urllib.error, urllib.parse
 
-url = 'http://localhost:7211/database/resource/pk/33'
-
+url = 'http://localhost:7211/database/resource/pk/2114'
 
 response = urllib.request.urlopen(url)
 webContent = response.read()
 
-print(webContent)
-print(type(webContent))
+f = open('HTML_Download.HTML', 'wb')
+f.write(webContent)
+f.close
 
-save_path = 'Temp'
-name_of_file = "HTML_Download.HTML"
-
-completeName = os.path.join(save_path, name_of_file)
-
-file1 = open(completeName, "wb")
-
-file1.write(webContent)
-file1.close()

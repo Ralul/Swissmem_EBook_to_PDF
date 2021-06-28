@@ -1,20 +1,10 @@
-import pdfkit , os.path
+import pdfkit
 
-
-
-fh = open("temp/" + "HTML_defragmentation.html")
-
-line = fh.read()
 
 options = {
-    'margin-top': '0.0mm',
-    'margin-right': '0.0mm',
-    'margin-bottom': '0.0mm',
-    'margin-left': '0.0mm',
-    "page-Height": "147.5mm",
-    "page-Width": "100mm",
-
+    'page-size': 'B6',
+    'pageWidth':
 }
 
+pdfkit.from_file('HTML_def.html', 'Swissmem_B6.pdf', options=options)
 
-pdfkit.from_string(line, "test.pdf", options = options)
