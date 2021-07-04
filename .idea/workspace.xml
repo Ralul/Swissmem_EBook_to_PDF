@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7c76485-d73c-4ecf-bd8d-c92af1066101" name="Default Changelist" comment="0.0.2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_defragmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_defragmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_to_PDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_to_PDF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/HTML_defragmentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/HTML_defragmentation.html" afterDir="false" />
-    </list>
+    <list default="true" id="e7c76485-d73c-4ecf-bd8d-c92af1066101" name="Default Changelist" comment="0.0.2" />
     <list id="7df2cdcd-8de6-4ed0-bbad-070785e1e4b7" name="Printing" comment="Print random shit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +44,7 @@
       <recent name="C:\Users\Messerli\Documents\GitHub\Swissmem_EBook_to_PDF" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HTML_to_PDF">
+  <component name="RunManager" selected="Python.PDF_Cropper">
     <configuration name="HTML_Download" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Swissmem_EBook_to_PDF" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,6 +108,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="PDF_Cropper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Swissmem_EBook_to_PDF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\raoul\OneDrive\Dokumente\GitHub\Swissmem_EBook_to_PDF\PDF_Cropper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="PDF_assemble" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Swissmem_EBook_to_PDF" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,27 +142,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PDF_assemble.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Start_Swissmem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Swissmem_EBook_to_PDF" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Start_Swissmem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,19 +195,19 @@
     <list>
       <item itemvalue="Python.Swissmem_EBook_to_PDF" />
       <item itemvalue="Python.HTML_Download" />
-      <item itemvalue="Python.Start_Swissmem" />
       <item itemvalue="Python.HTML_defragmentation" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.HTML_to_PDF" />
       <item itemvalue="Python.PDF_assemble" />
+      <item itemvalue="Python.PDF_Cropper" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PDF_Cropper" />
         <item itemvalue="Python.HTML_to_PDF" />
         <item itemvalue="Python.HTML_defragmentation" />
         <item itemvalue="Python.PDF_assemble" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Start_Swissmem" />
       </list>
     </recent_temporary>
   </component>

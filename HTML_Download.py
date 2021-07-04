@@ -1,6 +1,6 @@
 import urllib.request, urllib.parse, os.path
 
-url = 'http://localhost:7211/database/resource/pk/4308'
+url = 'http://localhost:7211/database/resource/pk/33'
 
 
 response = urllib.request.urlopen(url)

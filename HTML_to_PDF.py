@@ -10,8 +10,9 @@ options = {
     'margin-top': '0.0mm',
     'margin-right': '0.0mm',
     'margin-bottom': '0.0mm',
-    'margin-left': '0.0mm'
-
+    'margin-left': '0.0mm',
+    "page-Width" : "5000mm",
+    "Page-Height" : "5000mm"
 }
 
 
