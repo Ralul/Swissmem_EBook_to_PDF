@@ -8,7 +8,11 @@ line = line.replace("localhost", "localhost:7211")
 
 
 line = line.replace("Ã¶", "ö")
-line = line.replace("􀀀", "ü")
+line = line.replace("Ã¼", "ü")
+line = line.replace("Ã¤", "ä")
+line = line.replace("ÃŸ", "ß")
+
+
 
 
 save_path = 'Temp'

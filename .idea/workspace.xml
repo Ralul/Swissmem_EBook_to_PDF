@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c76485-d73c-4ecf-bd8d-c92af1066101" name="Default Changelist" comment="0.0.2">
-      <change afterPath="$PROJECT_DIR$/PDF_assemble.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Swissmem_EBook_to_PDF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Swissmem_EBook_to_PDF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_Download.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Download.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML_defragmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_defragmentation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML_to_PDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_to_PDF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/HTML_Download.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/HTML_Download.HTML" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/HTML_defragmentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/HTML_defragmentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/test.pdf" afterDir="false" />
     </list>
     <list id="7df2cdcd-8de6-4ed0-bbad-070785e1e4b7" name="Printing" comment="Print random shit" />
     <option name="SHOW_DIALOG" value="false" />
@@ -215,8 +209,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.HTML_to_PDF" />
-        <item itemvalue="Python.PDF_assemble" />
         <item itemvalue="Python.HTML_defragmentation" />
+        <item itemvalue="Python.PDF_assemble" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.Start_Swissmem" />
       </list>
